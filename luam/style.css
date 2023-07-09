@@ -1,0 +1,194 @@
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Bebas Neue', sans-serif; 
+*/
+
+:root {
+  --primary: #ffc107;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  text-decoration: none;
+}
+
+/* navbar style start */
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  transition: all 0.4s;
+}
+
+.nav-color {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+  transition: all ease-in 0.3s;
+}
+
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.navbar-brand span {
+  color: var(--primary);
+}
+
+.navbar-nav {
+  font-weight: 600;
+  text-align: center;
+  transform: scale(1.1);
+  transition: all ease-out 0.2s;
+}
+
+.navbar-nav a:hover {
+  background-color: var(--primary);
+  border-radius: 6px;
+  transform: scale(1.1);
+  transition: all ease-in 0.2s;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+/* navbar style end */
+
+/* home start */
+
+.home {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.3) 50%), url(./assets/6.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 17rem 0;
+}
+
+.home .container {
+  color: white;
+  text-align: center;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.ternate {
+  font-size: 70px;
+}
+
+/* home end */
+
+/* About start */
+
+.about {
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+}
+
+.tittle-about {
+  font-family: "Mochiy Pop One", sans-serif;
+  margin-bottom: 2rem;
+  margin-top: 13px;
+  text-align: center;
+}
+
+.about button {
+  border: 2px solid green;
+  border-radius: 27px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding: 12px;
+  transition: all 0.2s ease-in;
+}
+
+.about button:hover {
+  background-color: green;
+  transition: all ease-out 0.2s;
+  transform: scale(1.1);
+  transition: all ease-in 0.2s;
+}
+
+.about button:active {
+  background-color: green;
+  color: white;
+  transition: ease;
+}
+
+.about button a {
+  text-decoration: none;
+  padding: 12px 12px;
+  color: black;
+}
+
+.about button a:hover {
+  color: white;
+}
+
+/* Tempat Wisata start */
+.tempat-wisata {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.tittle-wisata {
+  font-family: "Mochiy Pop One", sans-serif;
+  padding-bottom: 14px;
+}
+
+.tempat-wisata .card {
+  margin-bottom: 1.7rem;
+  text-align: center;
+  color: white;
+
+  transition: all ease-in 0.3s;
+  overflow: hidden;
+}
+
+.tempat-wisata .card:hover {
+  transform: scale(1.1);
+  transition: all ease-out 0.3s;
+}
+
+.tempat-wisata .card:active {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.2s;
+}
+
+.card-img {
+  height: 250px;
+  filter: contrast(90%) brightness(80%);
+}
+
+/* Tempat Wisata end */
+
+/* hotel start */
+.hotel {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.tittle-hotel {
+  padding-bottom: 2rem;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+.hotel img {
+  height: 200px;
+}
+
+.hotel .btn {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+/* hotel end */
